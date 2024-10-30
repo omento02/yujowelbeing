@@ -1,5 +1,85 @@
-header{
-    background-color: aquamarine;
-    color: teal;
-    
+header {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+header h1 {
+    font-size: 24px;
+    color: red;
+    margin: 0;
+}
+
+header p {
+    font-size: 16px;
+    color: #555;
+}
+header img {
+    max-width: 55%;
+    /* width: 700px; */
+    height: auto;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) ;
+}
+
+footer {
+    background-color: #f8f9fa;
+    /* background-color: red; */
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #ddd;
+    margin-top: 20px;
+    /* position:fixed; */
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    color: #777;
+    /* color: black; */
+}
+footer a{
+    color:teal;
+    text-decoration: none;
+}
+footer a:hover{
+    color:#ffcc00;
+    text-decoration: underline;
+}
+
+.download {
+    text-align: center;
+    width: 100%;
+    color:teal;
+    /* border-top: 1px solid red; */
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header, .inspiration, footer {
+        padding: 15px;
+    }
+    header h1 {
+        font-size: 20px;
+    }
+    .inspiration {
+        font-size: 14px;
+    }
+}
+
+/* Button styling for download link */
+a.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0077cc;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+a.download-btn:hover {
+    background-color: red;
 }
