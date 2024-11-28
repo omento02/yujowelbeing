@@ -34,9 +34,20 @@ div {
     border-radius: 10px;
     height: auto;
 }
+nav a {
+    /* color: white;
+    text-decoration: none; */
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    color: yellowgreen;
+    text-decoration: underline;
+}
 
 header {
-    background-color: teal;
+   
     color: #ffffff;
     text-align: center;
     padding: 15px 10px;
@@ -50,26 +61,25 @@ header h1 {
 }
 
 footer {
-    background-color: #333333;
-    color: #ffffff;
-    padding: 15px;
+    background-color:  #f5f5f5;
+    color: #333333;
+    padding:20px 30px;
     text-align: center;
     font-size: 0.9rem;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
-  
-
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #cccccc;
 }
 
 footer a {
-    color: #ffcc00;
-    margin: 0 10px;
-    text-decoration: none;
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    color: #0066cc; 
+    text-decoration: none; 
+    margin: 0 10px; 
 }
 
 footer a:hover {
-    color: teal;
-    text-decoration: underline;
+    color: #004d99; 
+    text-decoration: underline; /
 }
 
 /* Responsive styles */
