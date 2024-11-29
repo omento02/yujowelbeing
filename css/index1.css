@@ -16,7 +16,7 @@ h1 {
     margin-bottom: 15px;
 }
 
-p {
+p,ul,li {
     text-align: center;
     margin: 10px 20px;
     font-size: 1rem;
