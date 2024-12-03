@@ -17,7 +17,6 @@ h1 {
 }
 
 p,ul,li {
-    text-align: center;
     margin: 10px 20px;
     font-size: 1rem;
     color: #333;
@@ -28,12 +27,16 @@ div {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow:0 4px 8px teal;
-    margin: 10px;
-    padding:15px;
-    border-radius: 10px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    color:#333;
+    margin: 15px;
+    padding:20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-family: 'Arial',sans-serif;
     height: auto;
 }
+
 nav a {
     /* color: white;
     text-decoration: none; */
